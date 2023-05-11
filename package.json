@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "telegramBot.js",
+  "type":"module", 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bot": "nodemon telegramBot.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
+    "mongoose": "^7.1.1",
     "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.22",
     "web3": "^1.9.0"
   }
 }
